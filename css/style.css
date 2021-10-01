@@ -82,10 +82,8 @@ tr:hover {
 }
 
 
-tr td:last-child{
-  border-right: 5px solid #000000;
 
-}
+
 
 tr:last-child{
   border-bottom: 5px solid #000000;
@@ -112,18 +110,19 @@ tr:last-child{
   background-color: #7e0825;
   text-align: center;
   vertical-align: middle;
-  border-top: 5px solid #000000;
+  /* border-top: 5px solid #000000; */
 
 
 
 }
 
 .rowhead{
-  border:2px solic #000000;
+  /* border:2px soli #000000; */
   text-align: center;
   vertical-align: middle;
   border-top: 2px solid #000000;
-  border-left: 5px solid #000000;
+  border-right: 2px solid #000000;
+
 
 
 }
@@ -132,7 +131,7 @@ tr:last-child{
 table{
     margin-left: auto;
     margin-right: auto;
-    border-top: 2px solid #000000;
+    border: 5px solid #000000;
     border-radius: 50px;
 
 
@@ -148,13 +147,14 @@ thead tr:last-child th:last-child{
   border-radius: 0px 50px 0px 0px;
 }
 
-/*  
-tr:nth-child(10){
+ 
+tbody tr:nth-child(10) td:nth-child(7){
   border-radius: 0px 0px 50px 0px;
-  border-bottom: 5px solid #000000;
 }
- */
-
+ 
+tbody tr:nth-child(10) th{
+  border-radius: 0px 0px 0px 50px;
+}
 
 /*Add selectors and rules here*/
 
